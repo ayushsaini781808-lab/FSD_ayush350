@@ -1,0 +1,104 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 40px;
+}
+
+/* Main container */
+div {
+    background-color: #fff;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header section */
+h1 {
+    font-size: 32px;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+p a {
+    color: #0077cc;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+/* Image and intro section */
+table {
+    width: 100%;
+    margin: 20px 0;
+}
+
+td {
+    vertical-align: top;
+    padding: 10px;
+    text-align: center;
+}
+
+img {
+    border-radius: 10px;
+    border: 2px solid #ccc;
+}
+
+/* Section styling */
+section {
+    margin-top: 30px;
+}
+
+section h2 {
+    border-bottom: 2px solid #0077cc;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    color: #0077cc;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+h3 {
+    margin-top: 20px;
+    color: #444;
+}
+
+/* FAQ section */
+details {
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #fafafa;
+    border-radius: 5px;
+}
+
+summary {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Footer styling */
+footer {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 14px;
+    color: #888;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+}
